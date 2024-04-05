@@ -7,7 +7,7 @@ bool tubSonmi(int son) {
 }
 
 void oraliqdagiTubSonlarniTop(int boshlangich, int tugash) {
-  for (int i = boshlangich + 1; i < tugash; i++) {
+  for (int i = boshlangich + 1; i <= tugash; i++) {
     if (tubSonmi(i)) {
       print(i);
     }
