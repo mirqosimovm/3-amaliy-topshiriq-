@@ -14,7 +14,7 @@ String sonTahlili(int son) {
 }
 
 void main() {
-  int son = 11;
+  int son = 5;
   String natija = sonTahlili(son);
   print('Berilgan son: $son - $natija');
 }
